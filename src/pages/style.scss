@@ -1,0 +1,19 @@
+html {
+  background-image: url(/public/background.png);
+}
+
+.page-home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  min-width: 100%;
+
+  .full-center-center {
+    display: flex;
+    padding: 0 20px;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }  
+}
