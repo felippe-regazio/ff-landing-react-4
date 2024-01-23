@@ -1,0 +1,1 @@
+export const BASE = '/ff-landing-react-4/';
