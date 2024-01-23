@@ -89,7 +89,7 @@ export function Home() {
               Perguntas frequentes
             </ThinkingHeading>
 
-            <Accordion title="Aqui vai a pergunta?">
+            <Accordion open={true} title="Aqui vai a pergunta?">
               <p>Esse pode ser o texto final da resposta da pergunta. Ele pode ter uma, duas, três ou várias linhas. O importante é ser a resposta ideal e pergunta.</p>
             </Accordion>
 

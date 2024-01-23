@@ -1,8 +1,8 @@
 import './style.scss';
 
-export function Accordion({ title, children }) {
+export function Accordion({ title, children, open }) {
   return (
-    <details className="accordion" open>
+    <details className="accordion" open={open}>
       <summary>
         <span>{title}</span>
         <span className="accordion__icon">
