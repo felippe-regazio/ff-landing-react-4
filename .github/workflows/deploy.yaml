@@ -6,5 +6,4 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploying to gh-pages
       run: npm run deploy
