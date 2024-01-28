@@ -105,7 +105,7 @@ export function Home() {
 
       <Modal
         open={openModal}
-        title="Olá! Eu sou o componente modal"
+        title="Whatever"
         onClickBackdrop={() => setOpenModal(false)}
         footer={<Button onClick={() => setOpenModal(false)}>Fechar Modal</Button>}
       >
