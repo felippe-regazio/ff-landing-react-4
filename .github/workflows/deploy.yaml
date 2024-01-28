@@ -6,5 +6,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: deploying
+      name: deploying
       run: npm run deploy
